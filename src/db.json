@@ -1,0 +1,42 @@
+{ 
+ "utilisateurs" : [
+  {
+  "id":1,
+    "Pseudo" : "Mor",
+    "Name" :  "fall",
+    "FisrtName" : "Oumar",
+    "Mail" : "fallmor02@gmail.com",
+    "Tel" : 772045872,
+    "Role" : "formateur"
+  
+  },
+  {
+    "id": 2,
+      "Pseudo" : "djibson",  
+      "Name" :   "dieye",
+      "FisrtName" : "djiby",
+      "Mail"  : "dieyedjibs52@gmail.com",
+      "Tel" : 773545879, 
+      "Role": "etudiant"
+      
+  },
+  {
+    "id": 3,
+    "Pseudo" : "mbaye",  
+    "Name" :   "Ndao",
+    "FisrtName" : "Khalifa",
+    "Mail"  : "ndaokhalifa2@gmail.com",
+    "Tel" : 773258779, 
+    "Role": "etudiant"
+  },
+  {
+    "id": 4,
+    "Pseudo" : "papa",  
+    "Name" :   "diop",
+    "FisrtName" : "Ablaye",
+    "Mail"  : "dioplaye58@gmail.com",
+    "Tel" : 783549879, 
+    "Role": "formateur"
+  }
+ ]
+ }

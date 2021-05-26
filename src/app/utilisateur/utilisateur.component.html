@@ -1,0 +1,46 @@
+
+ <div class="container">
+  <div>
+            <h2 > {{title}}</h2>
+   <button class="btn btn-primary">
+     Deconnexion
+   </button>
+ <span style="float: right;">financier</span> 
+</div>
+<div>
+  <span>liste des utilisateurs</span>
+ <table class="table table-bordered">
+   <thead>
+     <tr><th>id </th>
+       <th>Pseudo</th>
+       <th>Nom</th>
+       <th>Prenom</th>
+       <th>Mail</th>
+       <th>Numero</th>
+       <th>Role</th>
+       <th>Status</th>
+     </tr>
+   </thead>
+   <tbody>
+     <tr *ngFor = " let utilisateur of utilisateurs " > 
+      <td>{{utilisateur.id}} </td> 
+       <td>{{utilisateur.Pseudo}} </td> 
+       <td  > {{utilisateur.Name}}</td>
+       <td > {{utilisateur.FisrtName}} </td>
+       <td >   {{utilisateur.Mail}}</td>
+       <td >  {{utilisateur.Tel}}</td>
+       <td > {{utilisateur.Role}} </td>
+       <td >   <select name="Status">
+        <option value="En regle"class="material-icons-outlined ">   <i class="fas fa-check-square"></i> En regle
+          </option>
+        <option value="Pas En regle">Non En regle</option>
+
+      </select></td>
+     </tr>
+   </tbody>
+ </table>
+ <button class="btn btn-primary" style="float: right;">
+   voir l'archive</button>
+</div>
+</div>
+ 
